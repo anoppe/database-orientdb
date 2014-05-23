@@ -73,4 +73,25 @@
 			</plugin>
 		</plugins>
 	</build>
+	<organization>
+		<name>Ymor e-Services</name>
+		<url>Ymor.nl</url>
+	</organization>
+	<distributionManagement>
+		<snapshotRepository>
+			<id>deploy</id>
+			<name>snapshots</name>
+			<url>https://svn.ymor.nl/artifactory/libs-snapshot-local</url>
+		</snapshotRepository>
+		<repository>
+			<id>deploy</id>
+			<name>releases</name>
+			<url>https://svn.ymor.nl/artifactory/libs-release-local</url>
+		</repository>
+	</distributionManagement>
+	<scm>
+		<url>https://github.com/anoppe/database-orientdb</url>
+		<connection>scm:git:git@github.com:anoppedatabase-orientdb.git</connection>
+		<developerConnection>scm:git:git@github.com:anoppe/database-orientdb.git</developerConnection>
+	</scm>
 </project>
